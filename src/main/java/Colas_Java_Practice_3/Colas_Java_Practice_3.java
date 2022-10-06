@@ -7,7 +7,7 @@ package Colas_Java_Practice_3;
 
 /**
  *
- * @author dagove47
+ * @author David Gomez, Gabriel Brilla, Gerald Blanco, Alexander Torres
  */
 public class Colas_Java_Practice_3 {
 
