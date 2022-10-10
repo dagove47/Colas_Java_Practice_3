@@ -42,7 +42,9 @@ public class Colas_Java_Practice_3 {
                             "Fila Actual: \n\n" + cola + "\n\n");
                     break;
                 case 2:
-                    int buscarNum = Integer.parseInt(JOptionPane.showInputDialog("Digite el numero de cedula que desee buscar en la fila: \n\n"));
+                    int buscarNum = Integer.parseInt(
+                            JOptionPane.showInputDialog("Digite el numero de"
+                            + " cedula que desee buscar en la fila: \n\n"));
                     boolean isNum = cola.buscar(buscarNum);
                     if(isNum) {
                         JOptionPane.showMessageDialog(null, 
