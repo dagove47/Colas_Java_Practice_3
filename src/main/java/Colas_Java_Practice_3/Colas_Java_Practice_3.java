@@ -73,7 +73,26 @@ public class Colas_Java_Practice_3 {
     public static boolean isDiscapacidad() {
         int loop = 0;
         boolean disc = false;
-        //here
+        while(loop == 0) {
+            int mainMenu = Integer.parseInt(JOptionPane.showInputDialog(
+                "Digite el numero de la accion que desea realizar:\n\n" +
+                "Posee alguna discapacidad? \n" +
+                "1- Si \n" +
+                "2- No \n\n"));
+            switch(mainMenu) {
+                case 1:
+                    disc = true;
+                    loop = 1;
+                    break;
+                case 2:
+                    disc = false;
+                    loop = 1;
+                    break;
+                default:
+                    JOptionPane.showMessageDialog(null, 
+                            "Valor valor incorrecto\n" +
+                            "Por favor, digite una de las dos opciones \n");
+                    break;
             }
         }
         return disc;
